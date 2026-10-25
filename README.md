@@ -38,7 +38,6 @@ Further engagement is driven by patient transformation galleries, six clickable 
 
 ## 📋 Figma Sections Implemented
 
-The assignment requires selecting **any 6 sections**. This project implements **14 comprehensive sections** for complete visual and functional fidelity:
 
 1. **Top Announcement Ribbon**: Clove Dental Turns 14 special plan alert.
 2. **Sticky Header & Navigation**: Brand logo, desktop navigation, toll-free call button (`901-9043-345`), and mobile hamburger button.
@@ -69,66 +68,6 @@ The assignment requires selecting **any 6 sections**. This project implements **
 - **Sliding Mobile Drawer**: Mobile navigation menu with backdrop blur overlay and auto-dismiss.
 - **Floating Toast System**: Real-time feedback alerts on user actions.
 
----
-
-## 🚀 How to Run Locally
-
-1. Clone or download this project folder:
-   ```bash
-   cd task1
-   ```
-2. Start any local HTTP server:
-   - **Using Python 3**:
-     ```bash
-     python -m http.server 8080
-     ```
-   - **Using Node (npx)**:
-     ```bash
-     npx serve .
-     ```
-   - Or simply double-click and open `index.html` in any modern web browser.
-3. Open your browser and navigate to:
-   ```
-   http://localhost:8080/
-   ```
-
----
-
-## 🌐 Deployment Instructions
-
-### Option 1: GitHub Pages (Recommended)
-1. Initialize and push this repository to GitHub:
-   ```bash
-   git remote add origin https://github.com/nainabansal0804/clove-dental-landing-page.git
-   git branch -M main
-   git push -u origin main
-   ```
-2. In your GitHub repository, navigate to **Settings** > **Pages**.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)` folder, then click **Save**.
-5. Your live website URL will be ready at:
-   `https://nainabansal0804.github.io/clove-dental-landing-page/`
-
-### Option 2: Netlify Drop (Instant 10-Second Deploy)
-1. Open [Netlify Drop](https://app.netlify.com/drop).
-2. Drag and drop the `task1` folder directly into the browser window.
-3. Your live production URL will be generated immediately.
-
-### Option 3: Vercel
-1. Install Vercel CLI or import your GitHub repository at [vercel.com](https://vercel.com):
-   ```bash
-   npx vercel
-   ```
-2. Accept the defaults to deploy live in seconds.
-
----
-
-## 📱 Mobile Responsiveness Test
-- **Desktop**: Full layout with inline lead form, horizontal stats ribbon, and side-by-side grids.
-- **Tablet (768px - 1024px)**: Adaptive 2-column reflow, touch-optimized accordion triggers.
-- **Mobile (< 768px)**: Stacked single-column layouts, hamburger navigation drawer, and persistent sticky action bar at the bottom.
-
----
 
 ## 📄 License
 This project was developed for demonstration and assessment purposes. All dental brand trademarks belong to Clove Dental (Star Dental Centre Pvt. Ltd.).
