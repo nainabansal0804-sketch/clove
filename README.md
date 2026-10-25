@@ -4,10 +4,20 @@
 
 ---
 
+## 🌐 Project Availability & Live Demo
+
+- **Live Deployed Website**: [https://clove-dental-unbundl-symphoniou.netlify.app](https://clove-dental-unbundl-symphoniou.netlify.app)
+- **GitHub Repository**: [https://github.com/nainabansal0804-sketch/clove](https://github.com/nainabansal0804-sketch/clove)
+- **Deployment Platform**: Netlify
+- **Availability Status**: 🟢 Active & Fully Operational 24/7
+
+---
+
 ## 👨‍💻 Author Information
 - **Developer**: Naina Bansal
 - **Email**: nainabansal0804@gmail.com
-- **Repository**: Clove Dental RCT Landing Page
+- **Repository**: [https://github.com/nainabansal0804-sketch/clove](https://github.com/nainabansal0804-sketch/clove)
+- **Live Demo**: [https://clove-dental-unbundl-symphoniou.netlify.app](https://clove-dental-unbundl-symphoniou.netlify.app)
 
 ---
 
@@ -38,7 +48,6 @@ Further engagement is driven by patient transformation galleries, six clickable 
 
 ## 📋 Figma Sections Implemented
 
-
 1. **Top Announcement Ribbon**: Clove Dental Turns 14 special plan alert.
 2. **Sticky Header & Navigation**: Brand logo, desktop navigation, toll-free call button (`901-9043-345`), and mobile hamburger button.
 3. **Hero Section & Lead Capture Card**: Painless RCT value proposition with real-time input validation, **dynamic 4-digit security captcha**, and terms authorization.
@@ -68,6 +77,7 @@ Further engagement is driven by patient transformation galleries, six clickable 
 - **Sliding Mobile Drawer**: Mobile navigation menu with backdrop blur overlay and auto-dismiss.
 - **Floating Toast System**: Real-time feedback alerts on user actions.
 
+---
 
 ## 📄 License
 This project was developed for demonstration and assessment purposes. All dental brand trademarks belong to Clove Dental (Star Dental Centre Pvt. Ltd.).
