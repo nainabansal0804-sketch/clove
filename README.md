@@ -1,82 +1,134 @@
-# Clove Dental - Root Canal Treatment (RCT) Responsive Landing Page
+# 🦷 Clove Dental - Root Canal Treatment (RCT) Responsive Landing Page
 
-A responsive, high-converting dental healthcare landing page created based on the Figma design specifications.
-
-Built strictly using **HTML5**, **CSS3 (Vanilla CSS)**, and **JavaScript (Vanilla JS)** without any external frameworks or libraries as required by the assignment guidelines.
+> A responsive, high-converting dental healthcare landing page built from Figma design specifications using **Semantic HTML5**, **Vanilla CSS3**, and **Vanilla JavaScript** (Zero Frameworks).
 
 ---
 
-## 🚀 Live Demo & Deployment
+## 👨‍💻 Author Information
+- **Developer**: Naina Bansal
+- **Email**: nainabansal0804@gmail.com
+- **Repository**: Clove Dental RCT Landing Page
 
-This project is 100% static and ready to be deployed instantly on any of the following platforms:
+---
 
-### Option 1: GitHub Pages (Recommended)
-1. Push this repository to your GitHub account:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/clove-dental-landing-page.git
-   git branch -M main
-   git push -u origin main
-   ```
-2. Go to **Repository Settings** > **Pages**.
-3. Under **Build and deployment**, select **Source: Deploy from a branch**, choose `main` and `/ (root)`, then click **Save**.
-4. Your site will be live at `https://YOUR_USERNAME.github.io/clove-dental-landing-page/`.
+## 📖 Project Description
 
-### Option 2: Netlify (Drag & Drop or CLI)
-1. Go to [Netlify Drop](https://app.netlify.com/drop).
-2. Drag and drop this folder (`task1`) directly into the browser.
-3. Your live URL will be generated in under 10 seconds!
+The **Clove Dental Root Canal Treatment (RCT) Landing Page** is a responsive, high-converting healthcare web application engineered directly from Figma design specifications. Developed strictly adhering to core web standards using **semantic HTML5, Vanilla CSS3, and Vanilla JavaScript**, the project operates entirely framework-free without external libraries or dependencies. It delivers an intuitive, trustworthy user experience designed to educate patients on painless endodontics and streamline clinic appointments across India.
 
-### Option 3: Vercel
-1. Run `npx vercel` in the project directory, or import your GitHub repository into [Vercel](https://vercel.com).
-2. Choose default settings and click **Deploy**.
+Visually, the landing page mirrors Clove Dental’s authentic brand identity with a refined color palette featuring vibrant dental orange (`#F26A21`), clinical earth brown (`#46251A`), and warm cream backdrops, complemented by crisp typography and authentic medical imagery. The page begins with an urgent anniversary announcement ribbon and a sticky navigation header with an emergency dialer. The hero section pairs a bold value proposition highlighting painless single-sitting procedures with an interactive consultation card. A high-impact stats ribbon immediately reinforces credibility, displaying 600+ clinics, 1,200+ dentists, and a 99.2% RCT success rate.
+
+The core service section showcases side-by-side comparative cards for **Root Canal Treatment** (₹11,999) and **Re-RCT** (₹13,999), featuring detailed anatomical 3D illustrations, treatment subtypes, and direct consultation triggers. Tapping any action button dynamically opens a centralized booking modal with the requested service pre-selected, default appointment scheduling for the following day, and instantaneous client-side validation for 10-digit mobile numbers. Upon submission, users receive a personalized confirmation screen containing an auto-generated reference ID (e.g., `CLV-39530`).
+
+Further engagement is driven by patient transformation galleries, six clickable video story cards, and an interactive city filter allowing users to explore clinic networks across eight major metropolitan hubs including Delhi NCR, Mumbai, and Bangalore. Two standalone accordions—one explaining clinical advantages like the AI-enabled DORI dental chair and 10x safety sterilization, and another addressing common patient FAQs—provide seamless content toggling. Fully responsive across mobile devices, tablets, and ultra-wide desktops, the layout includes a sliding mobile drawer and a persistent bottom action bar enabling one-tap calling and consultation booking.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **HTML5**: Semantic tags (`<header>`, `<nav>`, `<section>`, `<main>`, `<footer>`, `<dialog>`, form inputs with validation).
-- **CSS3**: Custom design tokens, Flexbox, CSS Grid, smooth transitions, mobile-first responsive media queries, glassmorphism effects, and accessible color contrast.
-- **JavaScript (Vanilla JS)**: Pure DOM manipulation, event delegation, dynamic captcha generation, modal state handling, accordion toggles, and toast alerts.
+| Technology | Purpose | Implementation Details |
+| :--- | :--- | :--- |
+| **HTML5** | Content & Structure | Semantic tags (`<header>`, `<nav>`, `<section>`, `<footer>`, accessible forms). |
+| **CSS3 (Vanilla)** | Layout & Styling | CSS Custom Properties (Tokens), Flexbox, CSS Grid, Media Queries, animations. |
+| **JavaScript (ES6+)** | Dynamic Interactivity | Pure Vanilla JS — DOM manipulation, dynamic Captcha, modal states, event delegation. |
+| **Assets** | Visual Media | High-resolution 3D anatomical tooth diagrams, team portraits, clinic storefronts. |
+
+> **Note**: No third-party CSS frameworks (Tailwind, Bootstrap) or JS libraries (React, Vue, jQuery) were used, meeting 100% of the assignment requirements.
 
 ---
 
-## 📋 Sections Implemented from Figma
+## 📋 Figma Sections Implemented
 
-The assignment requires selecting **any 6 sections**. This project implements **all major sections** for complete visual and functional fidelity:
+The assignment requires selecting **any 6 sections**. This project implements **14 comprehensive sections** for complete visual and functional fidelity:
 
-1. **Top Announcement Ribbon**: 14th Anniversary special offer notice with direct link.
-2. **Sticky Header & Navigation**: Clove Dental branding, navigation links, call button, and mobile hamburger drawer.
-3. **Hero Section & Consultation Card**: Value proposition, certified endodontist highlight, and lead capture form with live input validation and dynamic captcha.
+1. **Top Announcement Ribbon**: Clove Dental Turns 14 special plan alert.
+2. **Sticky Header & Navigation**: Brand logo, desktop navigation, toll-free call button (`901-9043-345`), and mobile hamburger button.
+3. **Hero Section & Lead Capture Card**: Painless RCT value proposition with real-time input validation, **dynamic 4-digit security captcha**, and terms authorization.
 4. **Key Stats & Trust Bar**: 600+ Modern Clinics, 1,200+ Dentists, 30L+ Happy Patients, 99.2% RCT Success Rate, 50,000+ Implants.
-5. **Types of Root Canal Treatments**: Side-by-side cards for *Root Canal Treatment* and *Re-Root Canal Treatment*, featuring anatomical 3D illustrations, treatment subtypes, starting prices, and direct consultation CTAs.
-6. **Real Smiles, Real Transformations**: Before/After patient treatment results (Sagar Mehta, Kavita Sharma, Sneha Joshi, Viren Dayal) with case study viewer.
-7. **Why Choose Clove Dental ?**: Interactive accordion showcasing *DORI A.I. Chair*, *10x Safety & 4-Step Sterilization*, *Certified Endodontists*, *World-Class Equipment*, and *Rigid Audits*, accompanied by clinic staff imagery.
-8. **What Our Patients Say (Patient Stories)**: Patient cards with video/story preview modal.
-9. **Inline Quick Appointment Strip**: Rapid booking form with mobile and captcha support.
-10. **Safety, Precision, and Innovation**: Cards highlighting sterile protocols, AI dental chairs, and AIPS technology with "Learn More" dialog triggers.
-11. **Google Reviews**: 4.9-star rating summary (1.6 Lakh+ reviews) and verified patient testimonial cards.
-12. **Find Us Across India**: Interactive city selector (Delhi NCR, Bangalore, Mumbai, Chennai, Hyderabad, Punjab, Pune, Ahmedabad) that updates clinic counts and displays clinic storefronts.
-13. **14th Anniversary Dental Wellness Plan (₹399)**: High-contrast promotional offer with benefits checklist and instant coupon activation.
-14. **Frequently Asked Questions (FAQs)**: Collapsible accordion answering top patient queries regarding pain, doctors, crowns, and timings.
-15. **Site Footer**: Helpline callout, treatment links, city directories, and legal/privacy links.
-16. **Mobile Sticky Action Bar**: Bottom-docked quick call and booking bar for high conversion on mobile devices.
+5. **Types of Root Canal Treatments**: Dual cards for *Root Canal Treatment* (₹11,999) and *Re-Root Canal Treatment* (₹13,999) with anatomical diagrams, procedures list, and direct consultation CTAs.
+6. **Real Smiles, Real Transformations**: Patient before/after showcase (*Sagar Mehta*, *Kavita Sharma*, *Sneha Joshi*, *Viren Dayal*) with interactive case study viewer.
+7. **Why Choose Clove Dental ?**: Interactive accordion explaining *DORI A.I. Chair*, *10x Safety & 4-Step Sterilization*, *Certified Endodontists*, *World-Class Equipment*, and *Rigid Audits*, paired with clinic doctor photography.
+8. **What Our Patients Say**: 6 patient video testimonial cards across Indian cities with clickable video/story player modal.
+9. **Inline Quick Appointment Strip**: Rapid booking strip with name, mobile, and captcha verification.
+10. **Safety, Precision & Innovation**: Immersive cards on autoclave sterilization, robotic operatory chairs, and AIPS telemetry with *"Learn More"* dialog triggers.
+11. **Google Reviews**: 4.9-star rating badge (1.6 Lakh+ ratings) and verified patient feedback cards.
+12. **Find Us Across India**: Interactive city selector (Delhi NCR, Bangalore, Mumbai, Chennai, Hyderabad, Punjab, Pune, Ahmedabad) dynamically updating clinic counts and clinic facade visuals.
+13. **14th Anniversary Dental Wellness Plan (₹399)**: High-contrast promotional card offering ₹1,500 treatment vouchers and unlimited consultations with a 92% discount tag.
+14. **Frequently Asked Questions (FAQ Accordion)**: Collapsible Q&A addressing patient concerns regarding pain, single-sitting procedures, doctors, and crowns.
+15. **Site Footer**: Helpline numbers, treatment directories, legal policies, and accessibility notes.
+16. **Mobile Sticky Action Bar**: Bottom-docked *"Call Doctor"* and *"Book Consultation"* buttons for maximum mobile conversion.
 
 ---
 
-## 🎯 Interactivity Features
+## 🎯 Key Interactive Features
 
-- **Interactive Booking Modal**: Any "Book Appointment", "Get Free Consultation", or service card automatically launches the booking modal with the relevant service pre-selected and default appointment date set to tomorrow.
-- **Booking Confirmation Flow**: Submitting the form generates a unique reference ID (e.g. `CLV-39530`) and shows an appointment confirmation screen.
-- **Dynamic Captcha**: Randomized 4-digit security code with one-click refresh and input validation.
-- **Smooth Mobile Drawer**: Sliding drawer navigation with overlay dismiss.
-- **Interactive City Selector**: Instant filtering and clinic count updates for top Indian metropolitan cities.
-- **Accordion Toggle Behavior**: Clean, single-open accordion behavior for both "Why Choose Clove" and FAQ sections.
-- **Toast Notifications**: Floating feedback alerts on interactive actions.
+- **Interactive Consultation Booking Modal**: Clicking any *"Book Appointment"* or *"Get Free Consultation"* button opens the modal with the selected service pre-filled and the appointment date set to tomorrow.
+- **Instant Booking Confirmation**: Submitting the form generates a unique booking reference ID (e.g., `CLV-39530`) and presents a confirmation screen.
+- **Dynamic Security Captcha**: Generates a randomized 4-digit security code with a single-click refresh button and client-side validation.
+- **Interactive City Selector**: Tapping any city button updates the active state and dynamically refreshes the clinic counts and details.
+- **Dual Accordion Modules**: Smooth height animation and `aria-expanded` toggling on both "Why Choose Clove" and FAQ sections.
+- **Sliding Mobile Drawer**: Mobile navigation menu with backdrop blur overlay and auto-dismiss.
+- **Floating Toast System**: Real-time feedback alerts on user actions.
 
 ---
 
-## 📱 Mobile Responsiveness
+## 🚀 How to Run Locally
 
-- Breakpoints configured for mobile devices (`<640px`), tablets (`768px - 1024px`), and desktops (`>1024px`).
-- Flexible touch targets (minimum 44px x 44px) for all buttons and interactive controls.
-- Fast loading with local image assets and zero external framework overhead.
+1. Clone or download this project folder:
+   ```bash
+   cd task1
+   ```
+2. Start any local HTTP server:
+   - **Using Python 3**:
+     ```bash
+     python -m http.server 8080
+     ```
+   - **Using Node (npx)**:
+     ```bash
+     npx serve .
+     ```
+   - Or simply double-click and open `index.html` in any modern web browser.
+3. Open your browser and navigate to:
+   ```
+   http://localhost:8080/
+   ```
+
+---
+
+## 🌐 Deployment Instructions
+
+### Option 1: GitHub Pages (Recommended)
+1. Initialize and push this repository to GitHub:
+   ```bash
+   git remote add origin https://github.com/nainabansal0804/clove-dental-landing-page.git
+   git branch -M main
+   git push -u origin main
+   ```
+2. In your GitHub repository, navigate to **Settings** > **Pages**.
+3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+4. Select the `main` branch and `/ (root)` folder, then click **Save**.
+5. Your live website URL will be ready at:
+   `https://nainabansal0804.github.io/clove-dental-landing-page/`
+
+### Option 2: Netlify Drop (Instant 10-Second Deploy)
+1. Open [Netlify Drop](https://app.netlify.com/drop).
+2. Drag and drop the `task1` folder directly into the browser window.
+3. Your live production URL will be generated immediately.
+
+### Option 3: Vercel
+1. Install Vercel CLI or import your GitHub repository at [vercel.com](https://vercel.com):
+   ```bash
+   npx vercel
+   ```
+2. Accept the defaults to deploy live in seconds.
+
+---
+
+## 📱 Mobile Responsiveness Test
+- **Desktop**: Full layout with inline lead form, horizontal stats ribbon, and side-by-side grids.
+- **Tablet (768px - 1024px)**: Adaptive 2-column reflow, touch-optimized accordion triggers.
+- **Mobile (< 768px)**: Stacked single-column layouts, hamburger navigation drawer, and persistent sticky action bar at the bottom.
+
+---
+
+## 📄 License
+This project was developed for demonstration and assessment purposes. All dental brand trademarks belong to Clove Dental (Star Dental Centre Pvt. Ltd.).
